@@ -1,13 +1,43 @@
-h2{
-    font-size: 45px;
+.fig_originales #square-org {
+  height: 50px;
+  width: 50px;
+  background-color: #555;
 }
 
-.triangle-up {
+.fig_originales #rectangle-org {
+  height: 50px;
+  width: 100px;
+  background-color: #555;
+}
+
+.fig_originales #circle-org {
+  height: 50px;
+  width: 50px;
+  background-color: #555;
+  border-radius: 50%;
+}
+
+.fig_originales #oval-org {
+  height: 50px;
+  width: 100px;
+  background-color: #555;
+  border-radius: 50%;
+}
+
+.fig_originales #triangle-up-org {
 	width: 0;
 	height: 0;
 	border-left: 25px solid transparent;
 	border-right: 25px solid transparent;
 	border-bottom: 50px solid #555;
+}
+
+.fig_originales #trapezoid-org {
+	border-bottom: 50px solid #555;
+	border-left: 25px solid transparent;
+	border-right: 25px solid transparent;
+	height: 0;
+	width: 125px;
 }
 
 
