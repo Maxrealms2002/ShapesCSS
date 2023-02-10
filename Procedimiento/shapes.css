@@ -1,6 +1,16 @@
 h2{
     font-size: 45px;
 }
+.rectangle {
+    height: 50px;
+    width: 100px;
+    background-color: rgb(0, 102, 255);
+  }
+  .cuadrado {
+    height: 100px;
+    width: 100px;
+    background-color: rgb(255, 0, 0);
+  }
 
 .triangle-up {
 	width: 0;
