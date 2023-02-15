@@ -33,7 +33,7 @@
     overflow: hidden; 
     background-repeat: no-repeat;
     background-size: cover; 
-  overflow-y: scroll; 
+    overflow-y: scroll; 
   }
   
   .container{
@@ -44,7 +44,7 @@
              rotateX(78deg)
              rotateZ(34deg)
              translateZ(-8vw);
-  border-radius: 50%;
+    border-radius: 50%;
   }
   
   .grass-container{
