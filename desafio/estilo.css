@@ -162,7 +162,7 @@ body {
   
   border-radius: 7em;
   margin-top: 25px;
-  height: 18em;
+  height: 59em;
   background-color: #C0EEE4;
 }
 
@@ -170,12 +170,35 @@ body {
   font-size: 1.5em;
   padding-right: 1.5em;
   text-align: justify;
+  margin-left: -19.2em;
+}
+
+.main-page-conceptos #parrafo-cuatro{
+  font-size: 1.5em;
+  margin-left: -19.2em;
+  width: 875px;
+  padding-top: 12px;
+}
+
+.main-page-conceptos #parrafo-cinco{
+  font-size: 1.5em;
+  margin-left: -2.8em;
+  width: 875px;
+  padding-top: 12px;
+}
+
+.main-page-conceptos #parrafo-seis{
+  font-size: 1.5em;
+  margin-left: 13.5em;
+  width: 875px;
+  padding-top: 12px;
 }
 
 .main-page-conceptos h2{
   font-size: 1.8em;
-  padding-right: 1.5em;
+  padding-right: 19em;
   text-align: center;
+  width: 45em;
 }
 
 .main-page-conceptos .content-img img{
@@ -183,8 +206,58 @@ body {
   height: 180px;
   margin-left: 12em;
   margin-block: -150px;
+}
+
+.main-page-conceptos h3{
+  font-size: 1.8em;
+  color: #2c2d2d;
+}
+
+.main-page-conceptos #pixel-title{
+  padding-right: 30em;
+  margin-top: 200px;
+  text-align: center;
+  width: 45em;
 
 }
+
+.main-page-conceptos #linea-title{
+  padding-right: 3.8em;
+  margin-top: 143px;
+  text-align: center;
+  width: 45em;
+
+}
+
+.main-page-conceptos #poligono-title{
+  padding-right: 8.5em;
+  margin-top: 143px;
+  text-align: end;
+  width: 45em;
+
+}
+
+.main-page-conceptos #pixel-img{
+
+  margin-top: -230px;
+  margin-left: -60px;
+
+}
+
+.main-page-conceptos #linea-img{
+  margin-top: -230px;
+  margin-left: 335px;
+
+
+}
+
+.main-page-conceptos #poligono-img{
+  margin-top: -230px;
+  margin-left: 726px;
+
+
+}
+
 /* poner los elementos uno a lado de otro */
 .barra_navegacion {
   display: flex;
