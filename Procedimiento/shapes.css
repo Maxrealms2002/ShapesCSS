@@ -50,5 +50,47 @@
 	width: 125px;
 }
 
+.fig_modificados #square-mod {
+  height: 300px;
+  width: 300px;
+  background-color: #e70c51;
+}
+
+.fig_modificados #rectangle-mod {
+  height: 100px;
+  width: 300px;
+  background-color: #6fe70c;
+}
+
+.fig_modificados #circle-mod {
+  height: 180px;
+  width: 180px;
+  background-color: #08f693;
+  border-radius: 50%;
+}
+
+.fig_modificados #oval-mod {
+  height: 150px;
+  width: 100px;
+  background-color: #9d00ff;
+  border-radius: 50%;
+}
+
+.fig_modificados #triangle-up-mod {
+	width: 0;
+	height: 0;
+	border-left: 125px solid transparent;
+	border-right: 25px solid transparent;
+	border-bottom: 150px solid #ff0000;
+}
+
+.fig_modificados #trapezoid-mod {
+	border-bottom: 150px solid #0000f0;
+	border-left: 25px solid transparent;
+	border-right: 25px solid transparent;
+	height: 0;
+	width: 125px;
+}
+
 
 
