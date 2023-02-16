@@ -311,14 +311,16 @@ body {
   color: #000000;
 }
 .envolver-cont1 div {
-  margin: 70px;
+  margin-top: 80px;
+ 
 }
 .envolver-cont1 h2 {
-  display: flex;
-  flex-wrap: wrap;
-  margin: 10px;
-  line-height: 30px;
+
+  line-height: 60px;
+  justify-content: center;
   font-size: 30px;
+  margin-top: -80px;
+
 }
 
 /*figuras geometricas*/
@@ -326,17 +328,20 @@ body {
   height: 100px;
   width: 150px;
   background-color: #fce22a;
+  margin-left: 80px;
 }
 .cuadrado {
   height: 100px;
   width: 100px;
   background-color: #fce22a;
+  margin-left: 80px;
 }
 .circulo {
   height: 100px;
   width: 100px;
   background-color: #fce22a;
   border-radius: 50%;
+  margin-left: 80px;
 }
 .triangulo {
   width: 0;
@@ -344,6 +349,7 @@ body {
   border-left: 50px solid transparent;
   border-right: 50px solid transparent;
   border-bottom: 100px solid #fce22a;
+  margin-left: 80px;
 }
 .rombo {
   width: 100px;
@@ -354,6 +360,7 @@ body {
   -ms-transform: rotate(45deg);
   -o-transform: rotate(45deg);
   transform: rotate(45deg);
+  margin-left: 80px;
 }
 
 .pentagono {
@@ -363,6 +370,7 @@ body {
   border-width: 50px 18px 0;
   border-style: solid;
   border-color: #fce22a transparent;
+  margin-left: 80px;
 }
 .pentagono:before {
   content: "";
@@ -374,4 +382,24 @@ body {
   border-width: 0 45px 35px;
   border-style: solid;
   border-color: transparent transparent #fce22a;
+}
+
+/* Reedicion de figuras*/
+.triangulo h2 {
+  margin-left: -60px;
+}
+
+.rombo h2 {
+  margin-top: -80px;
+  margin-left: -80px;
+  -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  -o-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+}
+
+.pentagono h2{
+ margin-top: -130px;
+ margin-left: -40px;
 }
