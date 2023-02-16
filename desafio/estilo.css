@@ -25,7 +25,7 @@ body {
 .envolver-cont {
   width: 100%;
   height: 100%;
-  background-color: #00f2ff;
+  background-color: #FFE898;
   color: #00f2ff;
 }
 
@@ -46,6 +46,7 @@ body {
   height: 5px;
   color: #2c2d2d;
 }
+/*
 .envolver-cont img {
   padding: 1em;
   padding-bottom: 1em;
@@ -53,12 +54,13 @@ body {
   height: 180px;
   z-index: 1;
 }
+*/
 
      /*Titulo de Index*/
 .main-page-titulo{
   padding-top: 25px;
   justify-content: end;
-  background-color: #00f2ff;
+  background-color: #FFE898;
   width: 1200px;
   margin-left: 9em;
   
@@ -72,7 +74,7 @@ body {
   width: 250px;
   height: 80px;
   color: #ffffff;
-  background-color: #FF1E1E;
+  background-color: #060047;
   border-radius:0.5em;
 }
 
@@ -82,19 +84,107 @@ body {
   
   border-radius: 7em;
   margin-top: 25px;
-  background-color: #FFFF00;
+  height: 18em;
+  background-color: #C0EEE4;
 }
 
 .main-page-definicion p{
   font-size: 1.5em;
   padding-right: 1.5em;
+  text-align: justify;
 }
 
 .main-page-definicion h2{
   font-size: 1.8em;
   padding-right: 1.5em;
+  text-align: center;
 }
 
+.main-page-definicion .content-img img{
+  width: 150px;
+  height: 180px;
+  margin-left: 12em;
+  margin-block: -150px;
+
+}
+
+/*Seccion de origen*/
+/* Secciones pagina index*/
+
+.main-page-origen{
+  
+  border-radius: 7em;
+  margin-top: 25px;
+  height: 40em;
+  background-color: #7589fb;
+
+}
+
+.main-page-origen p{
+  font-size: 1.5em;
+  padding-right: 1.5em;
+  text-align: justify;
+}
+
+.main-page-origen #parrafo-uno{
+  font-size: 1.5em;
+  margin-left: -19.2em;
+}
+
+.main-page-origen #parrafo-dos{
+  padding-top: 6em;
+  margin-left: -19.2em;
+}
+
+.main-page-origen #parrafo-tres{
+  padding-top: 6em;
+  margin-left: -19.2em;
+}
+
+.main-page-origen h2{
+  font-size: 1.8em;
+  padding-right: 1.5em;
+  text-align: center;
+  margin-left: -15em;
+}
+
+.main-page-origen .content-img img{
+  width: 250px;
+  height: 180px;
+  margin-left: 54em;
+  margin-block: -150px;
+
+}
+
+/*Seccion de Conceptos*/
+
+.main-page-conceptos{
+  
+  border-radius: 7em;
+  margin-top: 25px;
+  height: 18em;
+  background-color: #C0EEE4;
+}
+
+.main-page-conceptos p{
+  font-size: 1.5em;
+  padding-right: 1.5em;
+  text-align: justify;
+}
+
+.main-page-conceptos h2{
+  font-size: 1.8em;
+  padding-right: 1.5em;
+  text-align: center;
+}
+
+.main-page-conceptos .content-img img{
+  width: 150px;
+  height: 180px;
+  margin-left: 12em;
+  margin-block: -150px;
+
+}
 /* poner los elementos uno a lado de otro */
 .barra_navegacion {
   display: flex;
