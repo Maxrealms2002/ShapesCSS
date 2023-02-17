@@ -390,28 +390,24 @@ body {
   border-left: 50px solid transparent;
   border-right: 50px solid transparent;
   border-bottom: 100px solid #fce22a;
-  margin-left: 80px;
+  margin-left: 60px;
 }
 .rombo {
-  width: 100px;
-  height: 100px;
+  width: 80px;
+  height: 80px;
   background: #fce22a;
-  -webkit-transform: rotate(45deg);
-  -moz-transform: rotate(45deg);
-  -ms-transform: rotate(45deg);
-  -o-transform: rotate(45deg);
   transform: rotate(45deg);
   margin-left: 80px;
 }
 
 .pentagono {
-  position: relative;
+  position: absolute;
   width: 54px;
   box-sizing: content-box;
-  border-width: 50px 18px 0;
+  border-width: 50px 18px 0px;
   border-style: solid;
   border-color: #fce22a transparent;
-  margin-left: 80px;
+  margin-left: 1010px;
 }
 .pentagono:before {
   content: "";
@@ -441,7 +437,7 @@ body {
 }
 
 .pentagono h2 {
-  margin-top: -130px;
+  margin-top: -200px;
   margin-left: -40px;
 }
 
