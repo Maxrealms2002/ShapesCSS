@@ -151,8 +151,13 @@ body {
 .main-page-origen .content-img img{
   width: 250px;
   height: 180px;
-  margin-left: 54em;
-  margin-block: -150px;
+  margin-left: 50em;
+  margin-top: -25em;
+}
+
+.main-page-origen .content-img #invencion{
+  width: 250px;
+  height: 290px;
 
 }
 
@@ -300,7 +305,7 @@ body {
 }
 
 .creador {
-  text-align: center;
+  font-size: 1.5em;
 }
 .envolver-cont1 {
   display: flex;
@@ -403,3 +408,72 @@ body {
  margin-top: -130px;
  margin-left: -40px;
 }
+
+/*
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.tree-wrapper {
+  width: 700px;
+  height: 700px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.tree {
+  position: relative;
+  margin-top: 20px;
+  transform: scale(3, 3);
+  top: -250px;
+  left: -150px;
+}
+.tree .layer {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background: green;
+  clip-path: polygon(50% 5%, 100% 85%, 100% 100%, 0 100%, 0 85%);
+}
+.tree .shadow {
+  position: absolute;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background: black;
+  clip-path: polygon(50% 0%, 0% 110%, 95% 100%);
+  margin-top: 20px;
+  margin-left: 10px;
+}
+.tree div:nth-child(1) {
+  transform: translateY(5px);
+  z-index: 3;
+}
+.tree div:nth-child(2) {
+  transform: translateY(0);
+  z-index: 3;
+}
+.tree div:nth-child(3) {
+  transform: translateY(40px);
+  z-index: 2;
+}
+.tree div:nth-child(4) {
+  transform: translateY(35px);
+  z-index: 2;
+}
+div:nth-child(5) {
+  transform: translateY(70px);
+  z-index: 1;
+}
+.tree:before {
+  content: "⭐️";
+  position: absolute;
+  left: 39px;
+  z-index: 10;
+  top: -9px;
+}
+*/
